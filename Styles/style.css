@@ -128,7 +128,7 @@ svg:hover #OB1{
   }
 }
 
-@keyframes animateOB7.5{
+@keyframes animateOB7_5{
   from {
     transform: translateX(0) translateY(0);
   }
@@ -155,7 +155,7 @@ svg:hover #OB1{
   }
 }
 
-@keyframes animateOB5.5{
+@keyframes animateOB5_5{
   from {
     transform: translateX(0) translateY(0);
   }
@@ -173,7 +173,7 @@ svg:hover #OB1{
   }
 }
 
-@keyframes animateOB4.5{
+@keyframes animateOB4_5{
   from {
     transform: translateX(0) translateY(0);
   }
