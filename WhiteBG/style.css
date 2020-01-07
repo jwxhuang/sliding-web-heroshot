@@ -1,0 +1,222 @@
+body, html {
+  height: 100%;
+  margin: 0;padding: 0;
+}
+
+body{
+  background: #85FFBD;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.titleHome {
+  margin: 100px;
+  z-index: 1;
+}
+
+.h2 {
+  font-family: circe;
+  font-size: 20px;
+  font-weight: 200;
+
+}
+.h1 {
+  font-family: din-condensed;
+  font-size: 80px;
+}
+
+svg {
+  width: 110%;
+  align-self: center;
+  justify-self: center;
+  margin-top: -300px;
+  margin-right: -100px;
+}
+
+
+svg:hover #OB8_5{
+  animation-duration: 1.4s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB8{
+  animation-duration: 1.4s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB7_5{
+  animation-duration: 1.3s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB7{
+  animation-duration: 1.3s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+svg:hover #OB6{
+  animation-duration: 1.3s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB5_5{
+  animation-duration: 1.6s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB5{
+  animation-duration: 1.6s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB4_5{
+  animation-duration: 1.2s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+svg:hover #OB4{
+  animation-duration: 1.2s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB3{
+  animation-duration: 1.4s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB2{
+  animation-duration: 1.2s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+svg:hover #OB1{
+  animation-duration: 1.4s;
+  animation-name: animateOB2;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes animateOB8_5{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB8{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB7_5{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB7{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB6{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB5_5{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB5{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB4_5{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB4{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+@keyframes animateOB3{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB2{
+  from {
+    transform: translateX(0) translateY(0);
+  }
+  to {
+    transform: translateX(-180px) translateY(-336px);
+  }
+}
+
+@keyframes animateOB1{
+  0% {
+    transform: translateX(0) translateY(0);
+  }
+  50% {
+    transform: translateX(-180px) translateY(-336px);
+  }
+  100%{
+    transform: translateX(0) translateY(0);
+  }
+  
+}
