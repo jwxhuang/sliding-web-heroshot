@@ -4,10 +4,12 @@ body, html {
 }
 
 body{
-  background: #85FFBD;
+  background: #fee700;
   width: 100%;
   display: grid;
   grid-template-columns: auto;
+  font-family: circe;
+  font-size: 16px;
 }
 
 .titleHome {
@@ -16,24 +18,52 @@ body{
 }
 
 .h2 {
-  font-family: circe;
   font-size: 20px;
   font-weight: 200;
-
 }
+
 .h1 {
   font-family: din-condensed;
   font-size: 80px;
+  width: 50px;
+  border-style: solid;
+  border: 5px;
+  border-color: black;
 }
 
-svg {
-  width: 110%;
+.headerFloater {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  margin-right: 30px;
+}
+
+.svgView {
+  width: 100%;
   align-self: center;
   justify-self: center;
-  margin-top: -300px;
+  overflow: hidden;
+  position: absolute;
+}
+/* 
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+} */
+
+svg {
+  width: 150%;
+  align-self: center;
+  justify-self: center;
+  margin-top: -150px;
   margin-right: -100px;
 }
-
 
 svg:hover #OB8_5{
   animation-duration: 1.4s;
@@ -220,3 +250,4 @@ svg:hover #OB1{
   }
   
 }
+
